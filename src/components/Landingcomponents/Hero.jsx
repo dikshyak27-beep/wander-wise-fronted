@@ -1,4 +1,5 @@
 import React from 'react'
+import CustomButton from '../shared/CustomButton'
 
 const Hero = () => {
   return (
@@ -13,11 +14,12 @@ const Hero = () => {
         </div>
 
         <div className="absolute top-0 "> 
-          <div className='w-1/2 mx-auto mt-40' >
+          <div className='w-1/2 mx-auto mt-40 text-center' >
           <h1 className='text-4xl text-white font-bold '> plan your trip with wanderwise</h1>
-          <p className='text-xl text-white font-medium mt-6'>
+          <p className='text-xl text-white font-medium mt-8'>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam magnam laboriosam numquam consequatur cum eveniet, placeat culpa voluptatibus nisi beatae delectus porro adipisci, amet similique! Rem reiciendis eveniet vel ipsa!
           </p>
+          <CustomButton text="Get started" link="login"/>
         </div>
         </div>
     </section>
